@@ -1,3 +1,3 @@
-// Ejercicio For 8: Contador de Caracteres
-// Desarrolla un programa que use un ciclo for para contar la frecuencia de cada carácter en una cadena de texto. 
-// Muestra los resultados ordenados alfabéticamente.
+//Desarrolla un programa que use un ciclo for para contar cuántas vocales 
+// (a, e, i, o, u) hay en una frase dada. Debe mostrar el conteo de cada vocal
+//  por separado.
