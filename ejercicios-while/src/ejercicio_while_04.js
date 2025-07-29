@@ -6,14 +6,32 @@
 
 // Ejercicio While 4: Generador de Números Aleatorios
 
-let numero = 0;
+
+let numeros = [12, 43, 87, 91, 65, 96, 23]; // Simulación de números "aleatorios"
+let i = 0;
 let contador = 0;
 
-while (numero <= 95) {
-    numero = Math.floor(Math.random() * 100) + 1; // Genera número entre 1 y 100
-    console.log("Número generado:", numero);
-    contador++;
+while (numeros[i] <= 95) {
+  console.log("Número:", numeros[i]);
+  contador++;
+  i++;
 }
 
-console.log("¡Se generó un número mayor a 95!");
-console.log("Cantidad total de números generados:", contador);
+console.log("¡Salió un número mayor a 95!");
+console.log("Total generados:", contador);
+
+
+
+
+// let numero = 0;
+// let contador = 0;
+
+// while (numero <= 95) {
+//     numero = Math.floor(Math.random() * 100) + 1; // Genera número entre 1 y 100
+//     console.log("Número generado:", numero);
+//     contador++;
+// }
+
+// console.log("¡Se generó un número mayor a 95!");
+// console.log("Cantidad total de números generados:", contador);
+

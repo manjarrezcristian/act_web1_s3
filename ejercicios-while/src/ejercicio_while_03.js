@@ -6,19 +6,19 @@
 
 // Ejercicio While 3: Validador de Contraseña
 
-const readline = require('readline-sync'); // Usamos readline-sync para entrada en consola
-
-const claveCorrecta = "admin123";
 let intento = "";
 let intentosFallidos = 0;
+const claveCorrecta = "admin123";
 
 while (intento !== claveCorrecta) {
-    intento = readline.question("Ingresa la contraseña: ");
-    if (intento !== claveCorrecta) {
-        console.log("Contraseña incorrecta. Intenta de nuevo.");
-        intentosFallidos++;
-    }
+  intento = prompt("Ingresa la contraseña:");
+
+  if (intento !== claveCorrecta) {
+    alert("Contraseña incorrecta.");
+    intentosFallidos++;
+  }
 }
 
-console.log("¡Acceso concedido!");
-console.log("Intentos fallidos antes del acceso correcto:", intentosFallidos);
+alert("¡Acceso concedido!");
+alert("Intentos fallidos: " + intentosFallidos);
+
