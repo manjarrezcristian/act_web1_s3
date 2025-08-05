@@ -1,6 +1,7 @@
-//Utiliza ciclos for anidados para encontrar y mostrar todos los números 
-// primos entre 1 y 100. Debe indicar cuántos números primos se encontraron.
-let contadorPrimos = 0;
+//Utiliza ciclos for anidados para encontrar y mostrar
+//  todos los números primos entre 1 y 100. 
+// Debe indicar cuántos números primos se encontraron.
+let contador_primos = 0;
 
 for (let num = 2; num <= 100; num++) {
     let esPrimo = true;
@@ -14,8 +15,8 @@ for (let num = 2; num <= 100; num++) {
 
     if (esPrimo) {
         console.log(num);
-        contadorPrimos++;
+        contador_primos++;
     }
 }
 
-console.log("Total de números primos entre 1 y 100:", contadorPrimos);
+console.log("Total primos entre 1 y 100:", contador_primos);

@@ -5,22 +5,22 @@
 // o indicar si no existe.
 // Ejercicio While 6: Búsqueda en Array
 
-let nombres = ["Ana", "Luis", "Carlos", "María", "Elena", "Pedro"];
-let nombreBuscado = "María"; // Puedes cambiar este valor para probar otros casos
+let nombres = ["ana", "luis", "Carlos", "maria", "elena", "pedro"];
+let nombre_buscado = "maria"; // Puedes cambiar este valor para probar otros casos
 
 let index = 0;
 let encontrado = false;
 
 while (index < nombres.length) {
-    if (nombres[index] === nombreBuscado) {
+    if (nombres[index] === nombre_buscado) {
         encontrado = true;
-        break; // Sale del ciclo si encuentra el nombre
+        break; // termina el bucle si lo encuentra 
     }
     index++;
 }
 
 if (encontrado) {
-    console.log(`El nombre "${nombreBuscado}" fue encontrado en la posición ${index}.`);
+    console.log(`El nombre "${nombre_buscado}" fue encontrado en la posición ${index}.`);
 } else {
-    console.log(`El nombre "${nombreBuscado}" no se encuentra en el array.`);
+    console.log(`El nombre "${nombre_buscado}" no se encuentra en el array.`);
 }

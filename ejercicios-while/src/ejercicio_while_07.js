@@ -4,21 +4,21 @@
 //  tiene un número entero positivo. Por ejemplo, 12345 tiene 5 dígitos.
 // Ejercicio While 7: Contador de Dígitos
 
-function contarDigitos(numero) {
+function contar_digitos(numero) {
     if (numero <= 0 || !Number.isInteger(numero)) {
-        console.log("Por favor ingresa un número entero positivo.");
+        console.log("ingrese un numero entero positivo.");
         return;
     }
 
     let contador = 0;
 
     while (numero > 0) {
-        numero = Math.floor(numero / 10); // Elimina el último dígito
+        numero = Math.floor(numero / 10); // aqui borramos el ultimo digito
         contador++;
     }
 
-    console.log(`El número tiene ${contador} dígito(s).`);
+    console.log(`el numero tiene ${contador} digito(s).`);
 }
 
-// Prueba con diferentes valores
-contarDigitos(12345);  // Resultado esperado: 5
+
+contar_digitos(12345);  

@@ -7,7 +7,7 @@
 // Ejercicio While 4: Generador de Números Aleatorios
 
 
-let numeros = [12, 43, 87, 91, 65, 96, 23]; // Simulación de números "aleatorios"
+let numeros = [12, 43, 87, 91, 65, 96, 23]; // simulacion de numeros aleatorios
 let i = 0;
 let contador = 0;
 

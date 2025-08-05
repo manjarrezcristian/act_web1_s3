@@ -7,18 +7,18 @@
 // Ejercicio While 3: Validador de Contraseña
 
 let intento = "";
-let intentosFallidos = 0;
-const claveCorrecta = "admin123";
+let intentos_fallidos = 0;
+const clave_correcta = "admin123";
 
-while (intento !== claveCorrecta) {
-  intento = prompt("Ingresa la contraseña:");
+while (intento !== clave_correcta) {
+  intento = prompt("ingresa la contraseña:");
 
-  if (intento !== claveCorrecta) {
-    alert("Contraseña incorrecta.");
-    intentosFallidos++;
+  if (intento !== clave_correcta) {
+    alert("contraseña errada.");
+    intentos_fallidos++;
   }
 }
 
-alert("¡Acceso concedido!");
-alert("Intentos fallidos: " + intentosFallidos);
+alert("Bienvenido");
+alert("intentos fallidos: " + intentos_fallidos);
 

@@ -10,7 +10,7 @@ function calcularFactorial(numero) {
     let factorial = 1;
     let contador = 1;
 
-    console.log(`Calculando el factorial de ${numero}:`);
+    console.log(`calculando el factorial de ${numero}:`);
 
     while (contador <= numero) {
         factorial *= contador;
@@ -21,5 +21,5 @@ function calcularFactorial(numero) {
     console.log(`El factorial de ${numero} es: ${factorial}`);
 }
 
-// Puedes probar con diferentes números aquí:
+
 calcularFactorial(5);

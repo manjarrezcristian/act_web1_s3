@@ -1,23 +1,23 @@
-//Dado un array de 20 números aleatorios, usa un ciclo for para encontrar:
-//  el número mayor, el menor, la suma total, el promedio, y cuántos números son pares
-//  e impares.
+//Dado un array de 20 números aleatorios, usa un ciclo for
+//  para encontrar el número mayor, el menor, la suma total,
+//  el promedio, y cuántos números son pares e impares.
 
-// Creamos un arreglo con 20 números aleatorios entre 1 y 100
+// aqui creamos un arreglo con 20 números aleatorios entre 1 y 100
 let numeros = [];
 for (let i = 0; i < 20; i++) {
   numeros.push(Math.floor(Math.random() * 100) + 1);
 }
 
-console.log("Números generados:", numeros);
+console.log("numeros disponibles", numeros);
 
-// Inicializamos variables
+//  estas son las variables
 let mayor = numeros[0];
 let menor = numeros[0];
 let suma = 0;
 let pares = 0;
 let impares = 0;
 
-// Recorremos el arreglo
+// miramos el arreglo
 for (let i = 0; i < numeros.length; i++) {
   let num = numeros[i];
   suma += num;
@@ -32,13 +32,13 @@ for (let i = 0; i < numeros.length; i++) {
   }
 }
 
-// Calculamos promedio
+// sacamos el promedio
 let promedio = suma / numeros.length;
 
-// Mostramos resultados
-console.log("Número mayor:", mayor);
-console.log("Número menor:", menor);
-console.log("Suma total:", suma);
-console.log("Promedio:", promedio);
-console.log("Cantidad de números pares:", pares);
-console.log("Cantidad de números impares:", impares);
+// aqui el resultado
+console.log("numero mayor:", mayor);
+console.log("numero menor:", menor);
+console.log("suma total:", suma);
+console.log("promedio:", promedio);
+console.log("cantidad pares:", pares);
+console.log("cantidad impares:", impares);

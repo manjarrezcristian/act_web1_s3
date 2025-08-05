@@ -1,6 +1,6 @@
-//Desarrolla un programa que use un ciclo for para contar cuántas vocales 
-// (a, e, i, o, u) hay en una frase dada. Debe mostrar el conteo de cada vocal
-//  por separado.
+//Desarrolla un programa que use un ciclo for para contar 
+// cuántas vocales (a, e, i, o, u) hay en una frase dada.
+//  Debe mostrar el conteo de cada vocal por separado.
 
 let frase = "hola mundo";
 let a = 0, e = 0, i = 0, o = 0, u = 0;

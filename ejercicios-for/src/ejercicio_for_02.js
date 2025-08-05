@@ -1,4 +1,5 @@
-//Implementa un programa que use ciclos for anidados para crear el siguiente patrón:
+//Implementa un programa que use ciclos for anidados
+//  para crear el siguiente patrón:
 //*
 //**
 //***
@@ -9,7 +10,7 @@
 //**
 //*
 
-// Parte creciente
+// aqui aumenta
 for (let i = 1; i <= 5; i++) {
   let linea = "";
   for (let j = 1; j <= i; j++) {
@@ -18,7 +19,7 @@ for (let i = 1; i <= 5; i++) {
   console.log(linea);
 }
 
-// Parte decreciente
+// aqui disminuye
 for (let i = 4; i >= 1; i--) {
   let linea = "";
   for (let j = 1; j <= i; j++) {
